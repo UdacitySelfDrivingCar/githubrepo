@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="origin"
+           fetch="https://github.com/UdacitySelfDrivingCar"/>
+
+  <default revision="master"
+           remote="origin"
+           sync-j="4" />
+
+  <!-- common.Droi -->
+  <project path="ogl" name="ogl" remote="origin"/>
+
+<!--   <project path="droi/tc571" name="FreemeOS/mt6757/ALPS-MP-N1.MP5-V1.61_DROI_TK6757_66_N1/pcb/droi/tc571" remote="droi"/> -->
+  <!-- common.FreemeOS -->
+  <!-- <project path="build" name="FreemeOS/mt6757/ALPS-MP-N1.MP5-V1.61_DROI_TK6757_66_N1/pcb/build">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project> -->
+
+  <!-- product.FreemeOS -->
+<!--   <project path="vendor/freeme" name="FreemeOS/common/vendor/freeme" revision="freeme-7.1.0_r2">
+    <linkfile src="build/tools/build" dest="mk" />
+    <linkfile src="build/tools/build" dest="publish" />
+    <linkfile src="build/tools/build" dest="stepup" />
+    <linkfile src="build/tools/build" dest="otadiff" />
+  </project>
+  <project path="vendor/partner_gms" name="FreemeOS/common/gms" revision="android-7.1_lite" />
+  <project path="vendor/freeme/packages/3rd-apps" name="FreemeOS/common/3rd-apps" revision="domestic" /> -->
+
+  <!-- product.Droi -->
+ <!--  <project path="droi/tc571" name="FreemeOS/mt6757/ALPS-MP-N1.MP5-V1.61_DROI_TK6757_66_N1/pcb/droi/tc571" />
+  <project path="droi/zd6" name="FreemeOS/mt6757/ALPS-MP-N1.MP5-V1.61_DROI_TK6757_66_N1/pcb/droi/zd6" /> -->
+
+  <!-- product.Lite -->
+<!--   <project path="vendor/freeme/packages/apps/freemelite" name="FreemeLite/apps" revision="cn_standard"/>
+  <project path="vendor/freeme/packages/apps/security" name="freemeos/common/security/apps" revision="pcb" />  -->
+</manifest>
