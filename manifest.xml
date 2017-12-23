@@ -10,6 +10,7 @@
 
   <!-- common.Droi -->
   <project path="ogl" name="ogl" remote="origin"/>
+  <project path="CarND-LaneLines-P1" name="CarND-LaneLines-P1" remote="origin"/>
 
 <!--   <project path="droi/tc571" name="FreemeOS/mt6757/ALPS-MP-N1.MP5-V1.61_DROI_TK6757_66_N1/pcb/droi/tc571" remote="droi"/> -->
   <!-- common.FreemeOS -->
