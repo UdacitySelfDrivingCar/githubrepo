@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="origin"
+           fetch="https://github.com/sherlockhouse"/>
+
+  <default revision="master"
+           remote="origin"
+           sync-j="4" />
+
+  <project path="tensorflow-learning" name="tensorflow-learning" remote="origin"/>
+
+</manifest>
