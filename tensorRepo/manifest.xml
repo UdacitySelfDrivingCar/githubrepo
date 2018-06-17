@@ -4,10 +4,15 @@
   <remote  name="origin"
            fetch="https://github.com/sherlockhouse"/>
 
+  <remote  name="lining0806"
+           fetch="https://github.com/lining0806"/>
+
   <default revision="master"
            remote="origin"
            sync-j="4" />
 
+  <project path="PythonSpiderNotes" name="PythonSpiderNotes" remote="lining0806" revision="master"/>
+  
   <project path="tensorflow-learning" name="tensorflow-learning" remote="origin"/>
 
 </manifest>
